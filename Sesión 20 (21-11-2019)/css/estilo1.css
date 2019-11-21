@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Liu";
+  src: url("../../../LiuJianMaoCao-Regular.ttf");
+}
+div {
+  width: 80%;
+  min-height: 400px;
+  background-color: azure;
+  margin: 1em auto;
+  border: 2px solid black;
+}
+div .cajaroja {
+  width: 60%;
+  min-height: 200px;
+  background-color: tomato;
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.f2 {
+  font-family: "Liu";
+}
+
+/*# sourceMappingURL=estilo1.css.map */
