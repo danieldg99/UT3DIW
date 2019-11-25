@@ -1,29 +1,29 @@
-@font-face {
-    font-family: 'Liu';
-    src: url('../../../LiuJianMaoCao-Regular.ttf');
-}
-
-$fuente1: 'Franklin Gothic Medium',
-'Arial Narrow',
-Arial,
-sans-serif;
-$fuente2: 'Liu';
-div {
-    width: 80%;
-    min-height: 400px;
-    background-color: azure;
-    margin: 1em auto;
-    border: 2px solid black;
-    .cajaroja {
-        width: 60%;
-        min-height: 200px;
-        background-color: tomato;
-        margin: 0 auto;
-        font-family: $fuente1;
-        text-align: center;
+    @font-face {
+        font-family: 'Liu';
+        src: url('../../../LiuJianMaoCao-Regular.ttf');
     }
-}
-
-.f2 {
-    font-family: $fuente2;
-}
+    
+    $fuente1: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    Arial,
+    sans-serif;
+    $fuente2: 'Liu';
+    div {
+        width: 80%;
+        min-height: 400px;
+        background-color: azure;
+        margin: 1em auto;
+        border: 2px solid black;
+        .cajaroja {
+            width: 60%;
+            min-height: 200px;
+            background-color: tomato;
+            margin: 0 auto;
+            font-family: $fuente1;
+            text-align: center;
+        }
+    }
+    
+    .f2 {
+        font-family: $fuente2;
+    }

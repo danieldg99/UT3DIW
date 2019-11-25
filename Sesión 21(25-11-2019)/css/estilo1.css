@@ -1,0 +1,53 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1em;
+}
+
+.c1 {
+  width: 80%;
+  min-height: 400px;
+  background-color: blanchedalmond;
+  margin: 1em auto;
+}
+.c1 .ch1 {
+  width: 50%;
+  min-height: 200px;
+  background-color: khaki;
+  margin: 1em auto;
+}
+
+.c2 {
+  margin-top: 50px;
+  width: 80%;
+  min-height: 400px;
+  background-color: lightblue;
+  margin: 1em auto;
+  text-align: center;
+}
+.c2 .ch2 {
+  width: 50%;
+  min-height: 200px;
+  background-color: royalblue;
+  margin: 0 auto;
+}
+.c2 .ch2:last-child {
+  box-sizing: border-box;
+  border-top: 2px solid white;
+}
+.c2 .ch2 div {
+  min-height: 50px;
+  width: 60%;
+  margin: 1em auto;
+  background-color: white;
+}
+
+body {
+  font: 1em Helvetica, sans-serif;
+  color: #bb3939;
+}
+
+/*# sourceMappingURL=estilo1.css.map */

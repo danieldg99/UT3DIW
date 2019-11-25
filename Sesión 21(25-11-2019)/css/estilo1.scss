@@ -1,0 +1,46 @@
+@import 'impo';
+$fuente1: Helvetica,
+sans-serif;
+$colorprincipal: rgb(187, 57, 57);
+.c1 {
+    width: 80%;
+    min-height: 400px;
+    background-color: blanchedalmond;
+    margin: 1em auto;
+    .ch1 {
+        width: 50%;
+        min-height: 200px;
+        background-color: khaki;
+        margin: 1em auto;
+    }
+}
+
+.c2 {
+    margin-top: 50px;
+    width: 80%;
+    min-height: 400px;
+    background-color: lightblue;
+    margin: 1em auto;
+    text-align: center;
+    .ch2 {
+        width: 50%;
+        min-height: 200px;
+        background-color: royalblue;
+        margin: 0 auto;
+        &:last-child {
+            box-sizing: border-box;
+            border-top: 2px solid white;
+        }
+        div {
+            min-height: 50px;
+            width: 60%;
+            margin: 1em auto;
+            background-color: white;
+        }
+    }
+}
+
+body {
+    font: 1em $fuente1;
+    color: $colorprincipal;
+}
