@@ -1,0 +1,37 @@
+@mixin borderradius($radio, $color) {
+    border: $radio solid black;
+    width: 33%;
+    min-height: 300px;
+    float: left;
+    box-sizing: border-box;
+    &:hover {
+        background-color: $color;
+    }
+}
+
+%texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline blue;
+    font-size: 1.5rem;
+}
+
+.cpb1 {
+    @include borderradius(3px, lightcoral);
+    &__texto1 {
+        @extend %texto;
+    }
+}
+
+.cpb2 {
+    @include borderradius(6px, lightgreen);
+    &__texto1 {
+        @extend %texto;
+    }
+}
+
+.cpb3 {
+    @include borderradius(9px, lightblue);
+    &__texto1 {
+        @extend %texto;
+    }
+}
