@@ -1,0 +1,10 @@
+body {
+  counter-reset: consola;
+}
+
+h2::before {
+  counter-increment: consola;
+  content: "Consola de videojuegos " counter(consola) ": ";
+}
+
+/*# sourceMappingURL=ej2.css.map */

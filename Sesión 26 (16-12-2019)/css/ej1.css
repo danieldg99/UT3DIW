@@ -1,0 +1,22 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: royalblue;
+  height: 600px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.flex div {
+  padding: 4px;
+  background-color: #fff;
+  margin-right: 2px;
+}
+.flex div:nth-child(2) {
+  align-self: flex-end;
+}
+.flex div:nth-child(4) {
+  align-self: flex-start;
+}
+
+/*# sourceMappingURL=ej1.css.map */
